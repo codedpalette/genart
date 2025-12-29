@@ -4,7 +4,7 @@ export default (p: p5) => {
 	p.setup = () => {
 		p.createCanvas(800, 800, p.WEBGL)
 		p.pixelDensity(1)
-		p.background(220)		
+		p.background(220)
 	}
 	p.draw = () => {
 		const mx = p.mouseX - p.width / 2

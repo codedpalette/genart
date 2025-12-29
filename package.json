@@ -7,11 +7,20 @@
 		"dev": "vite --open --host",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
+		"typecheck": "tsc --noEmit",
 		"format": "biome format --write",
-		"lint": "biome lint --write"
+		"lint": "biome lint --write",
+		"prepare": "husky"
+	},
+	"lint-staged": {
+		"*": [
+			"biome check --no-errors-on-unmatched --files-ignore-unknown=true"
+		]
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.3.10",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.2.7",
 		"typescript": "~5.9.3",
 		"vite": "^7.2.4"
 	},
