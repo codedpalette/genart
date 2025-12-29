@@ -9,6 +9,6 @@ export default (p: p5) => {
 	p.draw = () => {
 		const mx = p.mouseX - p.width / 2
 		const my = p.mouseY - p.height / 2
-		p.circle(mx, my, 80)
+		if (p.mouseIsPressed) p.circle(mx, my, 80)
 	}
 }
