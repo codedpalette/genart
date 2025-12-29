@@ -1,0 +1,9 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	},
+	"[css][html][javascript][json][jsonc][typescript][snippets]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	}
+}
