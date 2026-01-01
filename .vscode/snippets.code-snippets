@@ -29,7 +29,7 @@
 			"\t\tstrokeColor: \"#000000\",",
 			"\t}",
 			"\tp.setup = () => {",
-			"\t\tp.createCanvas(800, 800, p.WEBGL)",
+			"\t\tp.createCanvas(1000, 1000, p.WEBGL)",
 			"\t\tp.background(220)",
 			"",
 			"\t\tconst gui = new GUI()",
