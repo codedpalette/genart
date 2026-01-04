@@ -20,7 +20,11 @@
 		"noUnusedParameters": true,
 		"erasableSyntaxOnly": true,
 		"noFallthroughCasesInSwitch": true,
-		"noUncheckedSideEffectImports": true
+		"noUncheckedSideEffectImports": true,
+
+		"paths": {
+			"p5.record.js": ["./typings/p5.record.js.d.ts"]
+		}
 	},
-	"include": ["src", "sketches", "index.ts"]
+	"include": ["sketches", "library", "index.ts"]
 }

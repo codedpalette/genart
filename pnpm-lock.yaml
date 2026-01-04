@@ -14,6 +14,9 @@ importers:
       p5:
         specifier: ^2.1.2
         version: 2.1.2
+      p5.record.js:
+        specifier: ^0.3.0
+        version: 0.3.0
       stats-gl:
         specifier: ^3.8.0
         version: 3.8.0
@@ -534,6 +537,9 @@ packages:
     resolution: {integrity: sha512-VXJjc87FScF88uafS3JllDgvAm+c/Slfz06lorj2uAY34rlUu0Nt+v8wreiImcrgAjjIHp1rXpTDlLOGw29WwQ==}
     engines: {node: '>=18'}
 
+  p5.record.js@0.3.0:
+    resolution: {integrity: sha512-4YMu3DfA79mcxO3uc+ZxD2tN5Lti4x1tsGamSfHe9biWU1w1Fecm5zeiYcYrhoSAlnZgQ41t4T8fw+Ol2kIsEg==}
+
   p5@2.1.2:
     resolution: {integrity: sha512-M96K3FSwd31Sawsl9TzJ8kBZFuUy06eqRHpWw0DIQAOmYOosVyPr7Eh5GR2LsScba0X2wSnfRBYMz64oVQVOdg==}
 
@@ -1036,6 +1042,8 @@ snapshots:
   onetime@7.0.0:
     dependencies:
       mimic-function: 5.0.1
+
+  p5.record.js@0.3.0: {}
 
   p5@2.1.2:
     dependencies:
