@@ -7,6 +7,7 @@ declare module "p5.record.js" {
 
 declare module "p5" {
 	export default interface p5 {
+		setRecording(options: Partial<{ frameRate: number; source: HTMLCanvasElement; mimeType: string }>)
 		startRecording(): void
 		stopRecording(): void
 		pauseRecording(): void

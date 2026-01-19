@@ -12,8 +12,8 @@ importers:
         specifier: ^0.21.0
         version: 0.21.0
       p5:
-        specifier: 2.2.0-rc.4
-        version: 2.2.0-rc.4
+        specifier: 2.2.0
+        version: 2.2.0
       p5.record.js:
         specifier: ^0.3.0
         version: 0.3.0
@@ -540,8 +540,8 @@ packages:
   p5.record.js@0.3.0:
     resolution: {integrity: sha512-4YMu3DfA79mcxO3uc+ZxD2tN5Lti4x1tsGamSfHe9biWU1w1Fecm5zeiYcYrhoSAlnZgQ41t4T8fw+Ol2kIsEg==}
 
-  p5@2.2.0-rc.4:
-    resolution: {integrity: sha512-MhXpr7isHj0So2nhIoOSalWQ/wRIfAJl9SmgDtqO4QWPnnjoaIuDuAjqrb5DCxODgDK9qVMlJell010l852Dsg==}
+  p5@2.2.0:
+    resolution: {integrity: sha512-PBRN/pwUTcGuditoEGpAo4/9RQYqucXD7Jwddlp2iDX0z+AonLj38eHXVIT7N+AseZvHHoIDpm6hjGxNiLoO0A==}
 
   pako@2.1.0:
     resolution: {integrity: sha512-w+eufiZ1WuJYgPXbV/PO3NCMEc3xqylkKHzp8bxp1uW4qaSNQUkwmLLEc3kKsfz8lpV1F8Ht3U1Cm+9Srog2ug==}
@@ -1045,7 +1045,7 @@ snapshots:
 
   p5.record.js@0.3.0: {}
 
-  p5@2.2.0-rc.4:
+  p5@2.2.0:
     dependencies:
       '@davepagurek/bezier-path': 0.0.2
       '@japont/unicode-range': 1.0.0
